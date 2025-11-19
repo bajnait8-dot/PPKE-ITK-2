@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="szotar.css"?>
+<szotar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="szotar.xsd"
+        forras_nyelv="angol">
+
+  <cimszo szo="pie" fonetikusan="[paɪ]" szofaj="noun">
+    <forditas cel_nyelv="magyar" szo="pite">
+      <pelda forras="apple pie" forditas="almás pite" />
+      <pelda forras="I love eating warm pie with ice cream." forditas="Szeretek meleg pitét enni fagylalttal." />
+    </forditas>
+    <forditas cel_nyelv="dán" szo="tærte">
+      <pelda forras="Jeg bagte en tærte i går." forditas="Tegnap sütöttem egy pitét." />
+      <pelda forras="Jeg elsker at spise varm tærte med is." forditas="Szeretek meleg pitét enni fagylalttal." />
+    </forditas>
+  </cimszo>
+
+  <cimszo szo="oven" fonetikusan="[ˈʌv.ən]" szofaj="noun">
+    <forditas cel_nyelv="magyar" szo="sütő">
+      <pelda forras="Put the cake in the oven." forditas="Tedd be a tortát a sütőbe." />
+      <pelda forras="The oven is still hot." forditas="A sütő még mindig forró." />
+    </forditas>
+    <forditas cel_nyelv="dán" szo="ovn">
+      <pelda forras="Kagen er i ovnen." forditas="A sütemény a sütőben van." />
+      <pelda forras="Ovnen er stadig varm." forditas="A sütő még mindig forró." />
+    </forditas>
+  </cimszo>
+
+  <cimszo szo="flour" fonetikusan="[ˈflaʊ.ər]" szofaj="noun">
+    <forditas cel_nyelv="magyar" szo="liszt">
+      <pelda forras="Mix the flour with water." forditas="Keverd össze a lisztet vízzel." />
+      <pelda forras="Sift the flour before baking." forditas="Szitáld át a lisztet sütés előtt." />
+    </forditas>
+    <forditas cel_nyelv="dán" szo="mel">
+      <pelda forras="Bland melet med vand." forditas="Keverd össze a lisztet vízzel." />
+      <pelda forras="Si melet, før du bager." forditas="Szitáld át a lisztet sütés előtt." />
+    </forditas>
+  </cimszo>
+
+  <cimszo szo="sugar" fonetikusan="[ˈʃʊɡ.ər]" szofaj="noun">
+    <forditas cel_nyelv="magyar" szo="cukor">
+      <pelda forras="Add more sugar to taste." forditas="Ízlés szerint adj hozzá még cukrot." />
+      <pelda forras="Too much sugar is unhealthy." forditas="A túl sok cukor egészségtelen." />
+    </forditas>
+    <forditas cel_nyelv="dán" szo="sukker">
+      <pelda forras="Tilsæt mere sukker efter smag." forditas="Ízlés szerint adj hozzá még cukrot." />
+      <pelda forras="For meget sukker er usundt." forditas="A túl sok cukor egészségtelen." />
+    </forditas>
+  </cimszo>
+
+  <cimszo szo="bake" fonetikusan="[beɪk]" szofaj="verb">
+    <forditas cel_nyelv="magyar" szo="süt">
+      <pelda forras="I bake bread every weekend." forditas="Minden hétvégén kenyeret sütök." />
+      <pelda forras="She loves to bake for her friends." forditas="Szeret a barátainak sütni." />
+    </forditas>
+    <forditas cel_nyelv="dán" szo="bage">
+      <pelda forras="Jeg bager brød hver weekend." forditas="Minden hétvégén kenyeret sütök." />
+      <pelda forras="Bagning får køkkenet til at dufte dejligt." forditas="A sütés csodás illatot áraszt a konyhában." />
+    </forditas>
+  </cimszo>
+
+</szotar>

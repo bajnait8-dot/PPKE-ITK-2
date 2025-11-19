@@ -1,0 +1,2 @@
+- Konfidencia intervallum
+- U próba:

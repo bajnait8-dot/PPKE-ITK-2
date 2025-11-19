@@ -1,0 +1,25 @@
+<!ELEMENT mu (meta, vers)>
+
+<!ELEMENT meta (iro, cim, datum, helyszin)>
+<!ELEMENT iro (vezeteknev, keresztnev)>
+<!ELEMENT vezeteknev (#PCDATA)>
+<!ELEMENT keresztnev (#PCDATA)>
+<!ELEMENT cim (#PCDATA)>
+
+<!ELEMENT datum (#PCDATA)>
+<!ATTLIST datum
+    iso CDATA #IMPLIED>
+
+<!ELEMENT helyszin (#PCDATA)>
+<!ATTLIST helyszin
+    orszag    CDATA #IMPLIED
+    longitude CDATA #IMPLIED
+    latitude  CDATA #IMPLIED>
+
+<!ELEMENT vers (versszak+)>
+<!ATTLIST vers
+    forras CDATA #REQUIRED
+    nyelv  CDATA #IMPLIED>
+
+<!ELEMENT versszak (sor+)>
+<!ELEMENT sor (#PCDATA)>

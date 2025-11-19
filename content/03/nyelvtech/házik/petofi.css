@@ -1,0 +1,103 @@
+﻿vers{
+	margin: auto;
+	border: 1px dotted green;
+	width: 50%;
+	padding: 20px 30px;
+	position: relative;
+	
+}
+
+szerzo nev{
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+szerzo nev vezeteknev		
+{
+	text-transform: uppercase;
+}
+
+versszak
+{
+	display: block; 
+	margin-top: 10pt;
+}
+
+versszak[id="1"]
+{
+	text-transform:uppercase;
+}
+
+sor[id="zold"]
+{
+	color: green !important;
+}
+
+sor[class~="piros"]
+{
+	color: red !important;
+}
+
+sor[class*="ke"]{
+	color: blue;
+}
+
+/*
+#zold{
+	color: green;
+}
+
+.piros{
+	color: red !important;
+}
+
+.kek{
+	color: blue;
+}
+*/
+cim
+{
+	display: block; 
+	font-size: 30pt; 
+	font-weight: bold;
+	color: #504f4f;
+	text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+}
+
+sor
+{
+	display: block; 
+	font-size: 12pt; 
+	font-weight: normal;
+}
+
+versszak:nth-child(odd){
+	font-style: italic;
+}
+
+versszak > sor:not(:first-of-type) {
+  display: none;
+}
+
+versszak > sor:first-of-type:hover ~ sor {
+  display: block;
+}
+
+hely, nyelv{
+	font-style: italic;
+}
+
+keresztnev:hover{
+	cursor: pointer;
+	color: pink;
+	text-decoration: underline;
+}
+
+.elrejt{
+	/*visibility: hidden;*/
+}
+
+sor:nth-child(3n) {
+  font-weight: bold;
+  display: inline;
+}

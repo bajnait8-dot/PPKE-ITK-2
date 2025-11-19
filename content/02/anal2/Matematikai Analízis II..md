@@ -1,0 +1,47 @@
+# Előadások
+1.  [[1 - Számsorok|Számsorok]]
+2. [[2 - Hatványsor|Hatványsor]]
+- [[3 - Összegfüggvény]]
+- [[4 - Fourier sorok]]
+- [[5 - Kétváltozós függvények 1.]]
+- [[6 - Kétváltozós függvények 2.]]
+- [[7 - Érintősík]]
+- [[8 - Deriválási szabályok]]
+- [[9 - R az n-ediken]]
+- [[10 - Kettős integrál]]
+- [[11 - Hármas integrál]]
+- [[12 - Fourier transzformált]]
+- [[13 - Dirac]]
+- [[14 - LDE]]
+- [[15 - Vonalintegrál]]
+- [[16 - Potenciálkeresés]]
+# Házi feladatok
+- [[1. HF - Taylor polinom.pdf]]
+- [[2. HF - Fourier sor.pdf]]
+- [[3. HF - Fourier sor.pdf]]
+- [[4. HF.pdf]]
+- [[5. HF.pdf]]
+- [[6. HF.pdf]]
+- [[7. HF.pdf]]
+- [[8. HF.pdf]]
+- [[9. HF.pdf]]
+- [[10. HF.pdf]]
+# [[Gyakorlatok|Gyakorlatok]]
+# [[02/anal2/ZHk|ZHk]]
+# Vizsga
+## Tételsor
+- [[02/anal2/Vizsga/Vizsga tételsor (2024).pdf|Vizsga tételsor (2024)]]
+## Kidolgozott tételek
+### 2024-es tételek
+[[Kidolgozott tételsor (2024).pdf|Kidolgozott tételsor (2024)]]
+### 2014-es tételek
+[[02/anal2/Vizsga/Kidolgozott tételsor (2014).pdf|Kidolgozott tételsor (2014)]]
+# Hasznos könyvek
+- [[Advanced Engineering Mathematics - Erwin Kreyszig (2011).pdf]]
+- [[Differenciálszámítás - Bárczy Barnabás (1994).pdf]]
+- [[Integrálszámítás - Bárczy Barnabás (1992).pdf]]
+- [[Intro. to Calculus and Analysis vol. 1 - Richard Courant (1965).pdf]]
+- [[Intro. to Calculus and Analysis vol. 2 - Richard Courant (1989).pdf]]
+- [[James Stewart Calculus (2016).pdf]]
+- [[Matematikai Analízis - B. P. Gyemidovics. (2010).pdf]]
+- [[Thomas Calculus (2013).pdf]]

@@ -1,0 +1,18 @@
+- ARP:
+- ICMP: Az Internet Control Message Protocol az IP protokoll része, aminek feladata a hálózati infrastruktúra közötti kommunikációs problémák felderítése és kijavítása. ICMP vezérlő és hiba üzeneteket is tartalmazni (ping, ttl lejárt, cél nem elérhető, stb.)
+- AS (Autonomous System):
+- IGP (Interior Gateway Protocol):
+	- RIP (Routing Information Protocol):
+	- OSPF (Open Shortest Path First):
+- EGP (Exterior Gateway Protocol):
+	- BGP (Border Gateway Protocol):
+- IXP (Internet Exchange Point): 
+- BOOTP (Bootstrap Protocol):
+- DHCP (Dynamic Host Configuration Protocol):
+- Relay Agent
+- Port Forwarding
+- UDP (SYN, SYN-ACK, ACK)
+- TCP (FIN, ACK, FIN, ACK)
+- IGMP (Internet Group Management Protocol)
+- PIM (Pr0000otocol Independent Multicast)
+- URI, URN, URL

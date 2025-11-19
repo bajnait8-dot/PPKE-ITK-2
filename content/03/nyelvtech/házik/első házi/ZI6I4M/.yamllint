@@ -1,0 +1,14 @@
+---
+extends: default
+
+yaml-version:
+  required: true
+  version: 1.2
+
+rules:
+  document-start:
+    present: false
+  indentation:
+    spaces: 2
+    indent-sequences: false
+  line-length: disable

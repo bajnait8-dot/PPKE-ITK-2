@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <xs:element name="pelda">
+    <xs:complexType>
+      <xs:attribute name="forras" type="xs:string" use="required"/>
+      <xs:attribute name="forditas" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="forditas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pelda" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="cel_nyelv" type="xs:string" use="required"/>
+      <xs:attribute name="szo" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="cimszo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="forditas" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="szo" type="xs:string" use="required"/>
+      <xs:attribute name="fonetikusan" type="xs:string" use="optional"/>
+      <xs:attribute name="szofaj" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="szotar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cimszo" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="forras_nyelv" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

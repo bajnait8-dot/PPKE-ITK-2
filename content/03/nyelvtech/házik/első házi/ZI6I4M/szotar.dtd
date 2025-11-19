@@ -1,0 +1,23 @@
+<!ELEMENT szotar (cimszo+)>
+<!ATTLIST szotar
+  forras_nyelv CDATA #REQUIRED
+>
+
+<!ELEMENT cimszo (forditas+)>
+<!ATTLIST cimszo
+  szo CDATA #REQUIRED
+  fonetikusan CDATA #IMPLIED
+  szofaj CDATA #IMPLIED
+>
+
+<!ELEMENT forditas (pelda+)>
+<!ATTLIST forditas
+  cel_nyelv CDATA #REQUIRED
+  szo CDATA #REQUIRED
+>
+
+<!ELEMENT pelda EMPTY>
+<!ATTLIST pelda
+  forras CDATA #REQUIRED
+  forditas CDATA #REQUIRED
+>
